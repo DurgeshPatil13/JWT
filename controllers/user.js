@@ -27,7 +27,11 @@ if(isMatch) {
 };
 
 }
+async function accessprovider(req,res) {
+    return res.json("you can accesss")
+}
 module.exports={
 createuser,
-loginuser
+loginuser,
+accessprovider
 }
