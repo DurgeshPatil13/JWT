@@ -6,5 +6,5 @@ router.post("/signup",createuser)
 router.post("/login",loginuser)
 router.get("/profile",middlewarecheck,accessprovider)
 module.exports={
-    router
+    router,
 }
